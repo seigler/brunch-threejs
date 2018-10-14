@@ -1,7 +1,8 @@
 # Brunch app
 
 
-This is brunch skeleton for starting a project in **WebGL** with [Three.js](http://threejs.org/) and [ES6](http://es6-features.org).
+This is brunch skeleton for starting a project in **WebGL** with 
+[Three.js](http://threejs.org/) and [ES2016](https://babeljs.io/docs/en/learn/).
 
 
 ## Getting started
@@ -32,7 +33,7 @@ This is brunch skeleton for starting a project in **WebGL** with [Three.js](http
 
 * **Specific to this skeleton :**
 
-  * You can use this dir `/app/js/components/` for your THREE.object3D components. For my part, I create one component for each 3D object. There is an example of a 3D object in this dir (`Example.js`) to show how you can create a THREE.object3D with ES6.
+  * You can use this dir `/app/js/components/` for your THREE.object3D components. For my part, I create one component for each 3D object. There is an example of a 3D object in this dir (`Example.js`) to show how you can create a THREE.object3D with ES2015.
 
   * `/app/js/shaders` contains fragments and vertex `.glsl` files. If you need to use some `.glsl` file for build a `ShaderMaterial`, you can import these files. Look at `Example.js` for more details.
 
