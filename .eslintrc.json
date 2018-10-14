@@ -1,0 +1,10 @@
+{
+  "extends": "airbnb/base",
+
+  "globals": {
+    "app": true,
+    "dat": true,
+    "THREE": true
+  },
+  "rules": {}
+}

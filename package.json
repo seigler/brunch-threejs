@@ -1,0 +1,33 @@
+{
+  "name": "brunch-threejs",
+  "description": "Brunch skeleton for beginning a three.js project.",
+  "author": "Joshua Seigler",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seigler/brunch-threejs"
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "deploy": "npm install && npm start",
+    "prod": "rm -r public/ && brunch build --production"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.3",
+    "three-full": "^11.3.2"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "babel-brunch": "^7.0.0",
+    "brunch": "^2.10.17",
+    "clean-css-brunch": "^2.10.0",
+    "css-brunch": "^2.10.0",
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "glslify-brunch": "^1.0.0",
+    "javascript-brunch": "^2.10.0",
+    "uglify-js-brunch": "^2.10.0"
+  }
+}
